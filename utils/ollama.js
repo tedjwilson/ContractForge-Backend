@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 export async function generateContractText(data) {
   const prompt = `
 Create a professional legal contract using the following details:
