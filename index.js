@@ -33,9 +33,6 @@ app.post("/generate", async (req, res) => {
   }
 });
 
-/**
- * 🚨 THIS IS THE CRITICAL PART
- */
 const PORT = process.env.PORT;
 if (!PORT) {
   throw new Error("PORT is not defined");
